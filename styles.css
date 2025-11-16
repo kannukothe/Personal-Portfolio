@@ -424,8 +424,11 @@ section {
 }
 
 .projects-container {
+    width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
 
 .project-card {
@@ -602,3 +605,4 @@ section {
 html {
     scroll-behavior: smooth;
 }
+
